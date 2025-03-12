@@ -1,4 +1,4 @@
-package sebag.florent.wip.ui.theme
+package sebag.florent.presentation.theme
 
 import android.app.Activity
 import android.os.Build

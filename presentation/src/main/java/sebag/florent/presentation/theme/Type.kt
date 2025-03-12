@@ -1,4 +1,4 @@
-package sebag.florent.wip.ui.theme
+package sebag.florent.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
