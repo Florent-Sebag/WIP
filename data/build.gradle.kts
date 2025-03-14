@@ -40,4 +40,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(project(":domain"))
+    implementation("io.bloco:faker:2.0.4")
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
 }

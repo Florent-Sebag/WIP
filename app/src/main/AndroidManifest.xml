@@ -1,13 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
             android:name="sebag.florent.app.WipApp"
+            android:theme="@style/Theme.Material3.DayNight"
             android:allowBackup="true"
             android:usesCleartextTraffic="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true">
+            android:windowFullscreen="true">
+
             <activity android:name="sebag.florent.presentation.host.HostActivity"
                 android:exported="true">
                 <intent-filter>

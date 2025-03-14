@@ -16,9 +16,10 @@ class HostActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             WIPTheme {
-                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    HostScreen()
-                }
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) { HostScreen() }
             }
         }
     }
